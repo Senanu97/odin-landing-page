@@ -42,7 +42,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 12px;
+    gap: 40px;
 
     margin-right: 20px;
 }
@@ -73,12 +73,12 @@ This portion is for the first section of the main body of my webpage.
 
     margin-top: 10px;
     background-color: #1f2937;
-    height: 650px;
+    height: 750px;
 
 }
 
 .welcome-msg {
-    max-width: 450px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -113,7 +113,7 @@ This portion is for the first section of the main body of my webpage.
 }
 
 .profile-img {
-    max-width: 420px;
+    max-width: 350px;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -128,9 +128,15 @@ This portion is going to be for the second part of my webpage where I would inpu
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     
-    margin-top: 50px;
+    padding-top: 100px;
     gap: 50px;
+
+    background-color: #f9faf8;
+    color: #1f2937;
+
+    height: 750px;
 
 }
 
@@ -138,8 +144,7 @@ This portion is going to be for the second part of my webpage where I would inpu
     font-size: 36px;
     font-weight: bolder;
 
-    background-color: #f9faf8;
-    color: #1f2937;
+   
 }
 
 .flex-container {
@@ -147,16 +152,108 @@ This portion is going to be for the second part of my webpage where I would inpu
     gap: 10px;
     align-items: center;
     justify-content: space-between;
-    
+}
+
+.first,
+.second,
+.third,
+.fourth {
+    width: 300px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 25px;
+}
+
+.first,
+.second,
+.third,
+.fourth p {
+    font-size: 18px;
+    text-align: center;
 }
 
 
+/*
+This is my aside section/portion
+*/
 
+.aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+    background-color: #e5e7eb;
+    padding: 0px 18px;
+
+    height: 750px;
+
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.aside p{
+    font-weight: bolder;
+    font-size: 24px;
+
+    align-self: flex-end;
+}
 
 
 /*
-THis is where my footer goes
+My card comes here
+*/
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+
+    background-color: #3882f6;
+    padding: 40px;
+
+    max-width: 1000px;
+    width: 60%;
+    margin: 150px auto;
+}
+
+.card-content h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.card-content p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.card button{
+    padding: 12px 55px;
+    background-color: #3882f6;
+    font-weight: bold;
+    font-size: 16px;
+    color: #e5e7eb;
+    border: #e5e7eb 2px solid;
+    border-radius: 14px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+/*
+This is where my footer goes
 */
 
 footer {
@@ -169,6 +266,7 @@ footer {
 
     height: 40px;
     text-align: center;
+
 }
 
 
